@@ -1,0 +1,245 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khám phá thiên nhiên Việt Nam</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f7f4;
+            color: #333;
+            line-height: 1.7;
+        }
+
+        header {
+            background: linear-gradient(135deg, #087f5b, #38b000);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        nav {
+            background-color: #075c45;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        section {
+            background: white;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 12px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+        }
+
+        h2 {
+            color: #087f5b;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .gallery p {
+            text-align: center;
+            font-weight: bold;
+            margin-top: 8px;
+        }
+
+        .external-link {
+            color: #087f5b;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #075c45;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 27px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>KHÁM PHÁ THIÊN NHIÊN VIỆT NAM</h1>
+        <p>Vẻ đẹp đất nước qua những cảnh quan tuyệt vời</p>
+    </header>
+
+    <nav>
+        <a href="#gioithieu">Giới thiệu</a>
+        <a href="#diadiem">Địa điểm</a>
+        <a href="#hinhanh">Hình ảnh</a>
+        <a href="#baovemoi truong">Bảo vệ môi trường</a>
+    </nav>
+
+    <main>
+
+        <section id="gioithieu">
+            <h2>1. Giới thiệu</h2>
+            <p>
+                Việt Nam là một đất nước có thiên nhiên vô cùng phong phú
+                và đa dạng. Từ những ngọn núi hùng vĩ, bãi biển xanh trong
+                đến những khu rừng nhiệt đới rộng lớn, mỗi vùng miền đều
+                mang một vẻ đẹp riêng.
+            </p>
+            <p>
+                Hãy cùng khám phá những địa điểm du lịch nổi tiếng
+                và vẻ đẹp tuyệt vời của thiên nhiên Việt Nam!
+            </p>
+        </section>
+
+        <section id="diadiem">
+            <h2>2. Những địa điểm thiên nhiên nổi tiếng</h2>
+
+            <ul>
+                <li>
+                    <strong>Vịnh Hạ Long:</strong>
+                    Nổi tiếng với hàng nghìn hòn đảo đá vôi
+                    và làn nước biển xanh tuyệt đẹp.
+                </li>
+
+                <li>
+                    <strong>Sa Pa:</strong>
+                    Được biết đến với những dãy núi cao,
+                    ruộng bậc thang và khí hậu mát mẻ.
+                </li>
+
+                <li>
+                    <strong>Phong Nha - Kẻ Bàng:</strong>
+                    Nổi bật với hệ thống hang động kỳ vĩ
+                    và cảnh quan thiên nhiên độc đáo.
+                </li>
+            </ul>
+        </section>
+
+        <section id="hinhanh">
+            <h2>3. Thư viện hình ảnh</h2>
+
+            <div class="gallery">
+
+                <div>
+                    <img
+                        src="https://images.unsplash.com/photo-1528127269322-539801943592?w=800"
+                        alt="Phong cảnh thiên nhiên Việt Nam">
+                    <p>Vẻ đẹp Việt Nam</p>
+                </div>
+
+                <div>
+                    <img
+                        src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=800"
+                        alt="Cảnh núi non hùng vĩ">
+                    <p>Thiên nhiên núi rừng</p>
+                </div>
+
+                <div>
+                    <img
+                        src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800"
+                        alt="Bãi biển xanh tuyệt đẹp">
+                    <p>Biển xanh và cát trắng</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="baovemoi truong">
+            <h2>4. Chung tay bảo vệ môi trường</h2>
+
+            <p>
+                Thiên nhiên là tài sản quý giá mà chúng ta cần
+                bảo vệ. Mỗi người có thể góp phần bảo vệ môi trường
+                bằng những hành động thiết thực:
+            </p>
+
+            <ul>
+                <li>Không xả rác bừa bãi.</li>
+                <li>Trồng và chăm sóc cây xanh.</li>
+                <li>Hạn chế sử dụng túi nilon.</li>
+                <li>Bảo vệ động vật hoang dã.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>5. Tìm hiểu thêm</h2>
+
+            <p>
+                Bạn có thể tìm hiểu thêm về vẻ đẹp thiên nhiên
+                và các điểm đến tại Việt Nam qua trang web:
+            </p>
+
+            <a class="external-link"
+               href="https://vietnam.travel/"
+               target="_blank"
+               rel="noopener noreferrer">
+                Vietnam Tourism - Du lịch Việt Nam
+            </a>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 - Khám phá thiên nhiên Việt Nam</p>
+        <p>Hãy yêu thiên nhiên và bảo vệ môi trường!</p>
+    </footer>
+
+</body>
+</html>
+    
